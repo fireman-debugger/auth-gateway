@@ -1,0 +1,56 @@
+.auth-gateway {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-gateway form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-gateway form label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.auth-gateway form input[type="text"],
+.auth-gateway form input[type="password"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-gateway form button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-gateway form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.auth-gateway .error {
+  color: #f44336;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.auth-gateway .success {
+  color: #4CAF50;
+  font-size: 12px;
+  margin-top: 10px;
+}
